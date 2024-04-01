@@ -21,7 +21,7 @@ export default function Navbar() {
 
             {
                 hide ?
-                    <div className="flex lg:hidden gap-10 pl-10 lg:pl-0 flex-col absolute top-28 lg:static bg-white w-full shadow-md shadow-slate-200 lg:shadow-none pb-8 left-0 lg:flex-row">
+                    <div className="flex lg:hidden gap-10 pl-7 lg:pl-0 flex-col absolute top-28 lg:static bg-white w-full shadow-md shadow-slate-200 lg:shadow-none pb-8 left-0 lg:flex-row">
                         <a href="#">Individuals</a>
                         <a href="#">Teams</a>
                         <a href="#">Enterprise</a>

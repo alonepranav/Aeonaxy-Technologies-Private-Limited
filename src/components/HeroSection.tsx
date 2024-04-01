@@ -4,7 +4,7 @@ export default function HeroSection() {
     return (
         <div className="text-center flex flex-col gap-10 py-24 items-center justify-center px-2">
             <p className="text-blue-500">ROUTING FORMS</p>
-            <p className="font-extrabold text-3xl md:text-5xl lg:text-6xl">Make higher quality connecions</p>
+            <p className="font-extrabold text-3xl md:text-5xl lg:text-6xl">Make higher quality connections</p>
             <p className="md:text-lg text-stone-500 font-normal">Request information from website visitors or invitees and-based on their responses-route them to the right person or resourse.
                 <br />
                 <span className="italic">Available on Professional Plans and Up</span>
