@@ -1,4 +1,5 @@
 import BottomBox from "./components/BottomBox";
+import Feedback from "./components/Feedback";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
@@ -22,6 +23,8 @@ export default function App() {
       <Section3 />
 
       <Section4 />
+
+      <Feedback />
 
       <BottomBox />
 

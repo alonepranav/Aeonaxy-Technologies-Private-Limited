@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <div className="py-20 px-10 bg-white items-center">
 
-            <div className="flex gap-28">
+            <div className="flex gap-10 md:gap-28 flex-col md:flex-row">
                 <div className="">
                     <div className="">
                         <p className="font-extrabold text-4xl">Easy <span className="text-blue-600">ahead</span></p>
@@ -37,7 +37,7 @@ export default function Footer() {
             <br />
             <br />
 
-            <div className="grid grid-cols-6">
+            <div className="grid md:grid-cols-3 gap-10 lg:grid-cols-6">
                 <div className="flex flex-col gap-5">
                     <p className="font-bold text-xl">About</p>
                     <p className="text-lg">About Calendly</p>
@@ -79,7 +79,7 @@ export default function Footer() {
             </div>
 
 
-            <div className="mt-10 text-stone-500 flex justify-between items-center">
+            <div className="mt-10 text-stone-500 flex justify-between gap-3 flex-col md:flex-row">
                 <p className="">Copyright Calendly 2022</p>
                 <p className="">Privacy / Terms and Conditions</p>
             </div>
