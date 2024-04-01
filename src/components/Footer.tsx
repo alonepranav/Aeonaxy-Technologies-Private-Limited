@@ -9,7 +9,7 @@ export default function Footer() {
                     <div className="">
                         <p className="font-extrabold text-4xl">Easy <span className="text-blue-600">ahead</span></p>
                         <p className="text-lg mt-10">We take the work out of connecting with others so you can accomplish more.</p>
-                        <select name="" id="" className="mt-10 border border-slate-800 rounded-md py-2.5 bg-transparent px-3 w-80">
+                        <select name="" id="" className="mt-10 border border-slate-800 rounded-md py-2.5 bg-transparent px-3 w-64 md:w-80">
                             <option value="english">English</option>
                         </select>
                     </div>
@@ -18,7 +18,7 @@ export default function Footer() {
                 <div className="">
                     <div className="">
                         <p className="text-xl mt-4 font-semibold">Download here</p>
-                        <div className="flex gap-5 mt-4 items-center justify-center">
+                        <div className="flex gap-3 md:gap-5 mt-4 flex-wrap">
                             <img className="h-14 w-44" src="/google-play-store.png" alt="" />
                             <img className="h-14 w-44" src="/app-store.png" alt="" />
                         </div>
